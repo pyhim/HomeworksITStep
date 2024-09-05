@@ -1,10 +1,10 @@
 #include <cassert>
-#include "Laptop/Tests/laptopTest.h"
+#include "Pet/test/petTest.h"
 
-using Laptop::runTest;
+using Pets::petTest;
 
 int main() {
-    assert(runTest());
+    assert(petTest());
 
     return 0;
 }
