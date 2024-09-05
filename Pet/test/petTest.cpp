@@ -9,9 +9,9 @@
 
 namespace Pets {
     bool petTest() {
-        Cat cat("Cat", "Meow :3");
-        Dog dog("Dog", "Bark!");
-        Parrot parrot("Parrot", "Tweet!");
+        Cat cat;
+        Dog dog;
+        Parrot parrot;
 
         cat.say();
         dog.say();

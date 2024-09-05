@@ -10,11 +10,8 @@
 namespace Pets {
     class Parrot : public AbstractPet {
     public:
-        Parrot(string name, string phrase) : AbstractPet(std::move(name), std::move(phrase)) {
+        Parrot() : AbstractPet("Parrot", "Tweet!") {
         }
-
-
-        void say() const override;
     };
 } // Pets
 

@@ -16,15 +16,13 @@ namespace Pets {
         string phrase;
 
     protected:
-        AbstractPet() = default;
-
         explicit AbstractPet(string name, string phrase) : name(std::move(name)), phrase(std::move(phrase)) {
         }
 
         ~AbstractPet() = default;
 
     public:
-        virtual void say() const;
+        void say() const;
     };
 } // Pets
 
