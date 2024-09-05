@@ -5,8 +5,6 @@
 #ifndef CAT_H
 #define CAT_H
 
-#include <utility>
-
 #include "AbstractPet.h"
 
 namespace Pets {
