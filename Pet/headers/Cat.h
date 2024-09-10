@@ -10,7 +10,7 @@
 namespace Pets {
     class Cat final : public AbstractPet {
     public:
-        Cat() : AbstractPet("Cat", "Meow :3")  {
+        Cat() : AbstractPet("Cat", "Maine-coon", "Meow :3")  {
         }
     };
 } // Pets

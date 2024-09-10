@@ -3,19 +3,26 @@
 //
 
 #include "petTest.h"
+
+#include <iostream>
+
+#include "../headers/AbstractPet.h"
 #include "../headers/Cat.h"
 #include "../headers/Dog.h"
 #include "../headers/Parrot.h"
 
+using namespace std;
+
 namespace Pets {
     bool petTest() {
-        Cat cat;
-        Dog dog;
-        Parrot parrot;
+        AbstractPet pets[3]{Cat(), Dog(), Parrot()};
 
-        cat.say();
-        dog.say();
-        parrot.say();
+        for (const auto &pet : pets) {
+            pet.show();
+            pet.sound();
+            pet.printType();
+            cout << endl;
+        }
 
         return true;
     }

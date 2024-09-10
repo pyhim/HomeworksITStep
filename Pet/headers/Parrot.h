@@ -8,9 +8,9 @@
 #include "AbstractPet.h"
 
 namespace Pets {
-    class Parrot : public AbstractPet {
+    class Parrot final : public AbstractPet {
     public:
-        Parrot() : AbstractPet("Parrot", "Tweet!") {
+        Parrot() : AbstractPet("Parrot", "Carella", "Tweet!") {
         }
     };
 } // Pets

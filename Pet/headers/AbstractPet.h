@@ -13,16 +13,26 @@ using std::string;
 namespace Pets {
     class AbstractPet {
         string name;
+        string type;
         string phrase;
 
     protected:
-        explicit AbstractPet(string name, string phrase) : name(std::move(name)), phrase(std::move(phrase)) {
+        AbstractPet(string name, string type, string phrase) :
+            name(std::move(name)),
+            type(std::move(type)),
+            phrase(std::move(phrase)) {
         }
 
-        ~AbstractPet() = default;
-
     public:
-        void say() const;
+        AbstractPet(const AbstractPet &other);
+
+        void sound() const;
+
+        void show() const;
+
+        void printType() const;
+
+        ~AbstractPet() = default;
     };
 } // Pets
 
