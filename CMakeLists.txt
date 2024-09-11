@@ -14,6 +14,9 @@ add_executable(HomeworksITStep main.cpp
         Pet/headers/Parrot.h
         Pet/test/petTest.cpp
         Pet/test/petTest.h
+        Pet/Cat.cpp
+        Pet/Dog.cpp
+        Pet/Parrot.cpp
 )
 
 

@@ -26,13 +26,11 @@ namespace Pets {
     public:
         AbstractPet(const AbstractPet &other);
 
-        void sound() const;
+        virtual void sound() const;
 
         void show() const;
 
         void printType() const;
-
-        ~AbstractPet() = default;
     };
 } // Pets
 

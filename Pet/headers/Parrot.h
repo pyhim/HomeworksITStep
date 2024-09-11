@@ -12,6 +12,8 @@ namespace Pets {
     public:
         Parrot() : AbstractPet("Parrot", "Carella", "Tweet!") {
         }
+
+        void sound() const override;
     };
 } // Pets
 

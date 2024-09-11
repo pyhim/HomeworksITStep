@@ -15,12 +15,12 @@ using namespace std;
 
 namespace Pets {
     bool petTest() {
-        AbstractPet pets[3]{Cat(), Dog(), Parrot()};
+        AbstractPet* pets[3]{new Cat(), new Dog(), new Parrot()};
 
         for (const auto &pet : pets) {
-            pet.show();
-            pet.sound();
-            pet.printType();
+            pet->show();
+            pet->sound();
+            pet->printType();
             cout << endl;
         }
 
