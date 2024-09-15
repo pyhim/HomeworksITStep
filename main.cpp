@@ -1,10 +1,11 @@
-#include <cassert>
-#include "Pet/test/petTest.h"
+#include "AnimalWorld/client/Client.h"
 
-using Pets::petTest;
+using AnimalWorld::Client;
 
 int main() {
-    assert(petTest());
+    Client client;
+
+    client.start();
 
     return 0;
 }

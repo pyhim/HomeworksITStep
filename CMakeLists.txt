@@ -17,6 +17,31 @@ add_executable(HomeworksITStep main.cpp
         Pet/Cat.cpp
         Pet/Dog.cpp
         Pet/Parrot.cpp
+        AnimalWorld/animals/orders/Herbivore.cpp
+        AnimalWorld/animals/headers/Herbivore.h
+        AnimalWorld/animals/orders/Carnivore.cpp
+        AnimalWorld/animals/headers/Carnivore.h
+        AnimalWorld/continents/Continent.cpp
+        AnimalWorld/continents/headers/Continent.h
+        AnimalWorld/continents/Africa.cpp
+        AnimalWorld/continents/headers/Africa.h
+        AnimalWorld/continents/NorthAmerica.cpp
+        AnimalWorld/continents/headers/NorthAmerica.h
+        AnimalWorld/client/Client.cpp
+        AnimalWorld/client/Client.h
+        AnimalWorld/animals/Wildebeest.cpp
+        AnimalWorld/animals/headers/Wildebeest.h
+        AnimalWorld/animals/Bison.cpp
+        AnimalWorld/animals/headers/Bison.h
+        AnimalWorld/animals/Lion.cpp
+        AnimalWorld/animals/headers/Lion.h
+        AnimalWorld/animals/Wolf.cpp
+        AnimalWorld/animals/headers/Wolf.h
+        AnimalWorld/animals/headers/TemperatureSensitive.h
+        AnimalWorld/continents/headers/Temperature.h
+        AnimalWorld/animals/orders/ECarnivore.h
+        AnimalWorld/animals/orders/EHerbivore.h
+        AnimalWorld/animals/headers/IPrintable.h
 )
 
 
