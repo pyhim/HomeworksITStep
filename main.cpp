@@ -1,6 +1,6 @@
-#include "Calculator/test/calcTest.h"
+#include "Array/test/arrayTest.h"
 
-using ArrayCalculator::runTest;
+using MyArray::runTest;
 
 int main() {
     runTest();
