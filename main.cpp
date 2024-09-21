@@ -1,11 +1,9 @@
-#include "AnimalWorld/client/Client.h"
+#include "Calculator/test/calcTest.h"
 
-using AnimalWorld::Client;
+using ArrayCalculator::runTest;
 
 int main() {
-    Client client;
-
-    client.start();
+    runTest();
 
     return 0;
 }
