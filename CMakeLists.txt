@@ -7,13 +7,12 @@ set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 add_executable(HomeworksITStep main.cpp
-        Array/Array.cpp
-        Array/Array.h
-        Array/interfaces/IOutput.h
-        Array/interfaces/IMath.h
-        Array/interfaces/ISort.h
-        Array/test/arrayTest.cpp
-        Array/test/arrayTest.h
+        Validator/test/validatorTest.cpp
+        Validator/test/validatorTest.h
+        Validator/Validator.cpp
+        Validator/Validator.h
+        Validator/exceptions/InvalidSyntaxException.h
+        Validator/exceptions/FileNotFoundException.h
 )
 
 

@@ -1,6 +1,6 @@
-#include "Array/test/arrayTest.h"
+#include "Validator/test/validatorTest.h"
 
-using MyArray::runTest;
+using HTML_Validator::runTest;
 
 int main() {
     runTest();
