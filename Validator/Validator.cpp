@@ -17,19 +17,14 @@ namespace HTML_Validator {
     }
 
     bool Validator::validate() {
-        uint unclosedBrackets = 0;
+        int unclosedBrackets = 0;
         char c;
 
         while (this->file.get(c)) {
-            if (c == '<') {
-                unclosedBrackets++;
-            } else if (c == '>') {
-                unclosedBrackets--;
-            }
+            if (c == '<') unclosedBrackets++;
 
-            if (unclosedBrackets == UINT_MAX) {
-                throw InvalidSyntaxException();
-            }
+            else if (c == '>') unclosedBrackets--;
+
         }
         this->file.close();
 
