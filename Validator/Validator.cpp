@@ -24,7 +24,6 @@ namespace HTML_Validator {
             if (c == '<') unclosedBrackets++;
 
             else if (c == '>') unclosedBrackets--;
-
         }
         this->file.close();
 
