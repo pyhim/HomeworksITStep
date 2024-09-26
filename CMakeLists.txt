@@ -13,6 +13,8 @@ add_executable(HomeworksITStep main.cpp
         Validator/Validator.h
         Validator/exceptions/InvalidSyntaxException.h
         Validator/exceptions/FileNotFoundException.h
+        Exercises/exercises.cpp
+        Exercises/exercises.h
 )
 
 
